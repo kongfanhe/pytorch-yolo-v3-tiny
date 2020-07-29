@@ -2,6 +2,6 @@
 
 run dataset.py to create color rectangle data
 
-run train.py to create and train a model that detect color rectangle
+run train.py to train the model and savve to "net_best_save.weights"
 
-once a model file is created, run detect.py to detect per image
+after having "net_best_save.weights" file, run detect.py to detect per image
