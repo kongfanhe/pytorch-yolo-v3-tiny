@@ -1,10 +1,6 @@
 # Pytorch implementation of YOLO-v3-tiny
 
 This repository provides an easy pytorch implementaion of YOLO-v3-tiny.
-The network architecture follows this graph:
-
-![](https://wx1.sinaimg.cn/mw690/008b8Ivhgy1ghvjjsyjz2j30jt14t774.jpg)
-
 The dataset is a set of images with color rectangles on black background. 
 The images are generated with OPENCV. You do not need to download any extra dataset, 
 just **plug and play**.
@@ -30,8 +26,16 @@ just **plug and play**.
 ```
 
 ## Test Results
+
 The training process takes around one hour on GTX-1050Ti. Below are some prediction on new data:
 
 ![](https://wx2.sinaimg.cn/small/008b8Ivhgy1ghvjhntdvvj30eg0ega9x.jpg)
 ![](https://wx3.sinaimg.cn/small/008b8Ivhgy1ghvjhlf3c8j30eg0egdfo.jpg)
 ![](https://wx1.sinaimg.cn/small/008b8Ivhgy1ghvjhhv4y1j30eg0egdfp.jpg)
+
+
+## Network Architecture
+
+The network architecture follows this graph:
+
+![](https://wx1.sinaimg.cn/mw690/008b8Ivhgy1ghvjjsyjz2j30jt14t774.jpg =100)
