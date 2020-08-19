@@ -11,7 +11,7 @@ The dataset is a set of images with color rectangles on black background. The im
 
 2. Install necessary library
 ```bash
-    python install -r requirements
+    pip install -r requirements
 ```
 
 3. Train a YOLO-v3-tiny model, and obtain weights file "saved.weights"
