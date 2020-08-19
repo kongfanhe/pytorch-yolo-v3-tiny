@@ -13,7 +13,7 @@ def draw_bbox(img, x, y, w, h, color, t):
 
 def main():
     net: YoloNet = YoloNet(len(colors))
-    net.load_from_file("net_best_save.weights")
+    net.load_from_file("saved.weights")
     reset_random()
     for n in range(30):
         img, _, _, _, _, _ = create_image(416)
@@ -23,7 +23,7 @@ def main():
             co = colors[c]
             img = draw_bbox(img, x, y, w, h, [co[0]+50, co[1]+50, co[2]+50], 2)
         cv2.imshow("img", img)
-        cv2.waitKey(1000)
+        cv2.waitKey()
     print("done detect")
 
 

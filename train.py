@@ -44,16 +44,13 @@ def train(net: Net, img_dim, epochs, bs, its, lr):
         line_str = time_str + "," + str(loss_tr) + "," + str(loss_te)
         open("log.txt", "a").write(line_str + "\n")
         if loss_te < loss_te_min:
-            net.save_to_file("net_best_save.weights")
+            net.save_to_file("saved.weights")
             loss_te_min = loss_te
 
 
 def main():
-    epochs, bs, its, gpu = 2, 32, 1000, 0
-    # epochs, bs, its, gpu = 2, 3, 2, 0
-    # epochs, bs, its, gpu = 2, 3, 2, -1
+    epochs, bs, its, gpu = 2, 32, 500, 0
     net: Net = Net(len(colors), gpu)
-    # net.load_from_file("net_best_save.weights")
     img_dim = 416
     train(net, img_dim, epochs, bs, its, 1e-3)
     train(net, img_dim, epochs, bs, its, 1e-5)
