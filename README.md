@@ -34,8 +34,3 @@ The training process takes around one hour on GTX-1050Ti. Below are some predict
 ![](https://wx1.sinaimg.cn/small/008b8Ivhgy1ghvjhhv4y1j30eg0egdfp.jpg)
 
 
-## Network Architecture
-
-The network architecture follows this graph:
-
-![](https://wx1.sinaimg.cn/mw690/008b8Ivhgy1ghvjjsyjz2j30jt14t774.jpg =100)
