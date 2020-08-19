@@ -4,10 +4,10 @@ This repository provides an easy pytorch implementaion of YOLO-v3-tiny.
 
 The dataset is a set of images with color rectangles on black background. The images are generated with OPENCV. You do not need to download any extra dataset, just **plug and play**.
 
-You need three steps to train the model and test it.
+
+## How to play
 
 1. Install Python >=3.6
-
 
 2. Install necessary library
 ```bash
@@ -24,7 +24,8 @@ You need three steps to train the model and test it.
     python detect.py
 ```
 
-Some results are show here:
+## Test Results
+The training process takes around one hour on GTX-1050Ti. Below are some prediction on new data:
 
 ![](https://wx2.sinaimg.cn/small/008b8Ivhgy1ghvjhntdvvj30eg0ega9x.jpg)
 ![](https://wx3.sinaimg.cn/small/008b8Ivhgy1ghvjhlf3c8j30eg0egdfo.jpg)
