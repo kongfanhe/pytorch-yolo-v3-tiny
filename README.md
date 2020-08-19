@@ -31,6 +31,5 @@ The training process takes around one hour on GTX-1050Ti. Below are some predict
 
 ![](https://wx2.sinaimg.cn/small/008b8Ivhgy1ghvjhntdvvj30eg0ega9x.jpg)
 ![](https://wx3.sinaimg.cn/small/008b8Ivhgy1ghvjhlf3c8j30eg0egdfo.jpg)
-![](https://wx1.sinaimg.cn/small/008b8Ivhgy1ghvjhhv4y1j30eg0egdfp.jpg)
 
 
