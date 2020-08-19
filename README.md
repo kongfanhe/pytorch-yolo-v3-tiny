@@ -40,7 +40,7 @@ Our PC configuration is:
 
 
 The loss function on test dataset drops from ~2000 to ~10, and we stopped there.
-The learning curve (only test loss) is plotted below:
+The learning curve (only test loss) is shown below:
 
 ![](https://wx2.sinaimg.cn/mw690/008b8Ivhly1ghw3g4gxoej30hs0dc74l.jpg)
 
