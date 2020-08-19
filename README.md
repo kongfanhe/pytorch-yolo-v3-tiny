@@ -1,8 +1,13 @@
 # Pytorch implementation of YOLO-v3-tiny
 
 This repository provides an easy pytorch implementaion of YOLO-v3-tiny.
+The network architecture follows this graph:
 
-The dataset is a set of images with color rectangles on black background. The images are generated with OPENCV. You do not need to download any extra dataset, just **plug and play**.
+![](https://wx1.sinaimg.cn/mw690/008b8Ivhgy1ghvjjsyjz2j30jt14t774.jpg)
+
+The dataset is a set of images with color rectangles on black background. 
+The images are generated with OPENCV. You do not need to download any extra dataset, 
+just **plug and play**.
 
 
 ## How to play
