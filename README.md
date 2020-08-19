@@ -32,9 +32,8 @@ The images are generated with OPENCV on the fly.
 The training process takes 20 minutes to converge. 
 Our PC configuration is:
 
-|  |  |
-| --- | --- |
 | CPU | I5 9400F |
+| --- | --- |
 | GPU | GTX-1050Ti |
 | RAM | 8GB |
 
