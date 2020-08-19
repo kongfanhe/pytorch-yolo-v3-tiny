@@ -44,7 +44,7 @@ The learning curve (only test loss) is shown below:
 
 ![lcte.jpg](https://wx2.sinaimg.cn/mw690/008b8Ivhly1ghw3g4gxoej30hs0dc74l.jpg)
 
-With "saved.weights" file, we can predict on new data:
+With trained weights, the model can predict on new data:
 
 ![predict_1.jpg](https://wx2.sinaimg.cn/small/008b8Ivhgy1ghvjhntdvvj30eg0ega9x.jpg)
 ![predict_2.jpg](https://wx3.sinaimg.cn/small/008b8Ivhgy1ghvjhlf3c8j30eg0egdfo.jpg)
