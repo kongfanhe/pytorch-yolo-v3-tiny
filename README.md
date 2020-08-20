@@ -14,7 +14,7 @@ The images are generated with OPENCV on the fly.
 
 2. Install necessary packages
 ```bash
-    pip install -r requirements
+    pip install -r requirements.txt
 ```
 
 3. Train a YOLO-v3-tiny model, and save weights to "saved.weights" file.
